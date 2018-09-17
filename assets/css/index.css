@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(224, 253, 252);
+  padding: 10px 60px 10px 60px;
+  font-family: 'Raleway', sans-serif;
+}
+#bg-header {
+  background-image: url(/assets/images/cosmo.jpg);
+}
+
+header {
+  display: inline-flex;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+#title {
+  padding-left: 20%;
+  display: unset;
+  font-size: 3.5em;
+  color: white;
+}
+ 
+#navbar {
+   overflow: hidden;
+   font-size: 1.5em;
+}
+
+a {
+   float: right;
+   text-align: center;
+   text-decoration: none;
+   padding: 10px;
+}
+
+form {
+   padding: 20px 0px 15px 5px;
+   font-size: 1.4em;
+   font-family: 'Raleway', sans-serif;
+   color: indigo;
+}
+
+#experience {
+  font-size: 1.3em;
+}
+
+#introduction {
+  font-size: 1.3em;
+}
