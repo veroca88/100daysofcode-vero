@@ -46,3 +46,10 @@ form {
 #introduction {
   font-size: 1.3em;
 }
+
+table, td {
+  border-width: 2px;
+  border-style: outset;
+  color: indigo;
+  font-size: 1.1em;
+}
