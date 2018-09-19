@@ -9,3 +9,6 @@ DAY 1 09/15/2018.
 DAY 2 09/17/2018.
 **Thoughts** Today i decide to make a little harder for me this challege, it is good to put yourself in new places and leave the comfort zone. 
 **Today Progress** Im creating a Measurement Table, in one column are the body measure of the user and in the next column will be that measure divided for 4, but I'm stuck in this point.
+DAY 3 09/18/2018. 
+**Thoughts** I feel like a quicksand, with the table i still with problem, I'm going to pause that project and start with another, in the FreeCodeCamp i started ES6 i think i need study more to do better the project of the table... the positive side today read a lot and learned new tips, but isn't enough, tomorrow i review the concepts and utilization of each. 
+**Today Progress** Not much, try a lot but still without success.
