@@ -30,22 +30,18 @@
     <input type="radio" name="yesno" value="no">No
   </form>
   <div id="home">
-    <h2> Coding? </h2>
-    <p id="introduction">Computer programming is the process of designing and building an executable computer program
-      for accomplishing a
-      specific computing task. Programming involves tasks such as analysis, generating algorithms, profiling
-      algorithms' accuracy and resource consumption, and the implementation of algorithms in a chosen programming
-      language (commonly referred to as coding[1][2]). The source code of a program is written in one or more
-      programming languages. The purpose of programming is to find a sequence of instructions that will automate the
-      performance of a task for solving a given problem. The process of programming thus often requires expertise in
-      several different subjects, including knowledge of the application domain, specialized algorithms, and formal
-      logic.
+    <h2> Exercises </h2>
+    <input class="name" type="text" placeholder="Insert your name">
+    <button type="submit" id="welcome">Submit</button>
 
-      Related tasks include testing, debugging, maintaining a program's source code, implementation of build systems,
-      and management of derived artifacts such as machine code of computer programs. These might be considered part of
-      the programming process, but often the term software development is used for this larger process with the term
-      programming, implementation, or coding reserved for the actual writing of source code. Software engineering
-      combines engineering techniques with software development practices.</p>
+    <script>
+    
+      function welcome (name = "visitor") {
+        return "Hello " + name;
+      }
+      console.log(welcome());
+    </script>
+    
   </div>
   <div id="experience">
     This project born from the desire to be able to practice what i learned everyday.
@@ -64,24 +60,15 @@
       <strong>DAY 3 09/18/2018.</strong> **Thoughts** I feel like a quicksand, with the table i still with problem, I'm going to pause that project and start with another, in the FreeCodeCamp i started ES6 i think i need study more to do better the project of the table... the positive side today read a lot and learned new tips, but isn't enough, tomorrow i review the concepts and utilization of each. 
       **Today Progress** Not much, try a lot but still without success.
 
+      <strong>DAY 4 09/20/2018.</strong> **Thoughts** Yesterday i did exercises in FreeCodeCamp, but i didn't have time to practice and post... today i felt creative and I could organize a little better to have time and continue with the challenge. 
+      **Today Progress** Did some animation base on the examples of HTML y really love play with those animation, change color, shape and iteration. Maybe i need to search some project of animation to practice more.
+
     </p>
   </div>
   <div id="projects">
-    <table id="myTable">
-      <tr>
-        <td>Measurements</td>
-        <td>Total measure</td>
-        <td>1/4 measure</td>
-        <td><input type="text" placeholder="Insert your name"></td>
-
-      </tr>
-      <tr>
-        <td>Chest/Breast</td>
-        <td><input id="input_number" type="number" placeholder="Measure"></td>
-        <td id="result"></td> 
-        <script>
-        
-        </script>
+  <h1> Movements </h1>
+    <div id="ball"></div>
+    <div id="little-ball"></div>
 
 
 

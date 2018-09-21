@@ -54,3 +54,64 @@ table, td {
   font-size: 1.1em;
 }
 
+#ball {
+  width: 90px;
+  height: 90px;
+  margin: 10px auto;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #f8d511
+  );
+  animation-name: big;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes big{
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 249px;
+    width: 130px;
+    height: 70px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+
+#little-ball {
+  width: 10px;
+  height: 10px;
+  margin: 5px auto;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #ffffff,
+    #0f28b8
+  );
+  animation-name: little;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes little{
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 249px;
+    width: 130px;
+    height: 70px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+

@@ -12,3 +12,6 @@ DAY 2 09/17/2018.
 DAY 3 09/18/2018. 
 **Thoughts** I feel like a quicksand, with the table i still with problem, I'm going to pause that project and start with another, in the FreeCodeCamp i started ES6 i think i need study more to do better the project of the table... the positive side today read a lot and learned new tips, but isn't enough, tomorrow i review the concepts and utilization of each. 
 **Today Progress** Not much, try a lot but still without success.
+DAY 4 09/20/2018. 
+**Thoughts** Yesterday i did exercises in FreeCodeCamp, but i didn't have time to practice and post... today i felt creative and I could organize a little better to have time and continue with the challenge. 
+**Today Progress** Did some animation base on the examples of HTML y really love play with those animation, change color, shape and iteration. Maybe i need to search some project of animation to practice more.
