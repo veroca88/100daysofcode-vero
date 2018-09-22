@@ -25,6 +25,12 @@ header {
    font-size: 1.5em;
 }
 
+#home {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+}
+
 a {
    float: right;
    text-align: center;
@@ -43,75 +49,33 @@ form {
   font-size: 1.3em;
 }
 
-#introduction {
-  font-size: 1.3em;
+#projects {
+  border: 10px solid black;
+  height: 400px;
+  padding: 10% 15% 10% 15%;
 }
 
-table, td {
-  border-width: 2px;
-  border-style: outset;
-  color: indigo;
-  font-size: 1.1em;
+h1 {
+  font-display: 'Kaushan Script', cursive;
+  padding-left: 5%;
 }
 
-#ball {
-  width: 90px;
-  height: 90px;
-  margin: 10px auto;
-  position: relative;
-  border-radius: 50%;
-  background: linear-gradient(
-    35deg,
-    #ccffff,
-    #f8d511
-  );
-  animation-name: big;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes big{
-  0% {
-    top: 0px;
-  }
-  50% {
-    top: 249px;
-    width: 130px;
-    height: 70px;
-  }
-  100% {
-    top: 0px;
-  }
-}
-
-
-#little-ball {
-  width: 10px;
-  height: 10px;
-  margin: 5px auto;
-  position: relative;
-  border-radius: 50%;
-  background: linear-gradient(
-    35deg,
-    #ffffff,
-    #0f28b8
-  );
-  animation-name: little;
+#android:hover .move-right {
+  transition: 1s ease-in;
+  transform: translate(900px, 0);
+  -webkit-transform: translate(300px, 0);
   animation-duration: 3s;
+}
+#rabbit:hover .move-up {
+  transition: 1s linear;
+  transform: translate(0, -60px);
+  -webkit-transform: translate(0, -60px);
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+#turtle:hover .move-diagonal {
+  transition: 1s ease-in-out;
+  transform: translate(150px, -95px);
+  -webkit-transform: translate(150px, -95px);
   animation-iteration-count: infinite;
 }
-
-@keyframes little{
-  0% {
-    top: 0px;
-  }
-  50% {
-    top: 249px;
-    width: 130px;
-    height: 70px;
-  }
-  100% {
-    top: 0px;
-  }
-}
-
