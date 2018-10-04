@@ -156,4 +156,16 @@ let datePatternStr = "10 10 2018"
 let datePatternRegex = /(^\d{0,})\s\1/;
 console.log(datePatternRegex.test(datePatternStr));
 
+//Regular Expressions: Use Capture Groups to Search and Replace
+let sloganStr = "Think outside the box (Taco Bell)"
+let fixSlogan = /box/;
+let replaceWord = "bun";
+console.log(sloganStr.replace(fixSlogan, replaceWord));
+
+//Regular Expressions: Remove Whitespace from Start and End
+let muchSpace = "   It's not whether you get knocked down, it's whether you get up.Vince Lombardi.   "
+let lessSpace = /^\s*|\s*$/g;
+let correctionSpace = "";
+console.log(muchSpace.replace(lessSpace, correctionSpace));
+
 
