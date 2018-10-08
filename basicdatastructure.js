@@ -66,4 +66,38 @@ function divisionTwoNumbers(x,y) {
 }
 console.log(divisionTwoNumbers(45,5));
 
+//Basic Data Structures: Remove Items Using splice()
+
+function thirdNumber(arr) {
+  arr.splice(0, 3);
+  return arr.reduce((a, b) => a + b);
+}
+console.log(thirdNumber([5, 25, 125, 625, 3125]));
+  
+//Write a simple JavaScript program to join all elements of the following array into a string. Sample array : myColor = ["Red", "Green", "White", "Black"]; Expected Output : "Red,Green,White,Black" "Red,Green,White,Black" "Red+Green+White+Black"
+
+var myFavoritePlaces = ["Florence", "Quilotoa", "Galapagos", "Venice"].reduce(function(a, b) { return a + b});
+console.log(myFavoritePlaces);
+
+//Basic Data Structures: Add Items Using splice()
+
+function singTheSong(arr) {
+arr.splice(1, 2, 'about a thing ', 'cause every little thing ');
+return arr;
+}
+console.log(singTheSong(['Don\'t worry ', 'or you should worry ', 'too many things ', 'gonna be alright']));
+
+//Basic Data Structures: Copy Array Items Using slice()
+console.log(happyBirthday(['cake', 'ice cream', 'pizza', 'milkshake', 'hot dog', 'muffins']));
+function happyBirthday(arr) {
+let fifteenYearsOld = arr.slice(3, 5);
+return fifteenYearsOld;
+}
+
+function arrayClone(arr) {
+let newArray = [...arr];
+return newArray;
+}
+console.log(arrayClone([1, 2, 4, 0]));
+console.log(arrayClone([1, 2, [4, 0]]));
 
