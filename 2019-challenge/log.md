@@ -8,5 +8,8 @@ DAY 2 02/13/2019.
 **Thoughts** I need to practice more and more, however after this months doing the FreeCodeCamp course I feel motivated because I can resolve js exercises with more confidence.
 DAY 3 02/14/2019.
 **Today Progress** I worked with some javascript exercises, I started using a board to understand better the challenges in javascript and it's help me a lot... 
-**Thoughts** I'm still fighting with one problem but I'm in the correct path, It's hard sometimes when you want to explain something but can't find the corrects words 
+**Thoughts** I'm still fighting with one problem but I'm in the correct path, It's hard sometimes when you want to explain something but can't find the corrects words
+DAY 4 02/15/2019.
+**Today Progress** I worked today on exercise where I have to display a elements of array, all the elements have to be enumerated with ordinal form (st, nd, tr, th) I worked with the arithmetic operator reminder %, I read about it and also I did some exercises about computer science fundamentals.
+**Thoughts** When an exercises is challenging I search the most I can to understand sometimes I feel stuck but then when finally I got the solution it's great.
  
