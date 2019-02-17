@@ -12,4 +12,6 @@ DAY 3 02/14/2019.
 DAY 4 02/15/2019.
 **Today Progress** I worked today on exercise where I have to display a elements of array, all the elements have to be enumerated with ordinal form (st, nd, tr, th) I worked with the arithmetic operator reminder %, I read about it and also I did some exercises about computer science fundamentals.
 **Thoughts** When an exercises is challenging I search the most I can to understand sometimes I feel stuck but then when finally I got the solution it's great.
- 
+ DAY 5 02/16/2019.
+ **Today Progress** I worked in javascript exercises, Write a JavaScript program to perform a binary search, I completed it, also I tryed shuffle an array, but in this exercise I'm stuck, I've read some solutions but I need to understand every step to keep going... After one hour more I finally did it!!
+ **Thoughts** While I read more about computer science fundamentals, algorithms and some terms more technics as Big O notation I feel motivated and sometimes I feel exausted but I'm keep doing more javascript exercises, I think I have many things to learn, I need to take advantage of the time. 
