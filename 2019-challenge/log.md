@@ -14,4 +14,7 @@ DAY 4 02/15/2019.
 **Thoughts** When an exercises is challenging I search the most I can to understand sometimes I feel stuck but then when finally I got the solution it's great.
  DAY 5 02/16/2019.
  **Today Progress** I worked in javascript exercises, Write a JavaScript program to perform a binary search, I completed it, also I tryed shuffle an array, but in this exercise I'm stuck, I've read some solutions but I need to understand every step to keep going... After one hour more I finally did it!!
- **Thoughts** While I read more about computer science fundamentals, algorithms and some terms more technics as Big O notation I feel motivated and sometimes I feel exausted but I'm keep doing more javascript exercises, I think I have many things to learn, I need to take advantage of the time. 
+ **Thoughts** While I read more about computer science fundamentals, algorithms and some terms more technics as Big O notation I feel motivated and sometimes I feel exausted but I'm keep doing more javascript exercises, I think I have many things to learn, I need to take advantage of the time.
+ DAY 6 02/17/2019.
+**Today Progress** I did some exercises of mathematical functions, and in free code camp I'm in the Intermediate Algorithms: Smallest Common Multiple, I read a lot of how to do that exercises and finally I got it.
+**Thoughts** I think sometimes I spend to much time doing an exercises, I need to improve my time and also need to improve my code. 
