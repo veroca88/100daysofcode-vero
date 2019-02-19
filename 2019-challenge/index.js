@@ -29,25 +29,38 @@ console.log(temporaryArr.shuffle())
 /* Smallest Common Multiple
 Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters. The range will be an array of two numbers that will not necessarily be in numerical order.
 For example, if given 1 and 3, find the smallest common multiple of both 1 and 3 that is also evenly divisible by all numbers between 1 and 3. The answer here would be 6. */
-function smallestCommons(arr) {
-var newArr = []; 
-if (arr[0] > arr[1]) {
-  newArr.push(arr[1])
-  newArr.push(arr[0])
-} else {
-  newArr = arr
-}
+function smallestCommons (arr) {
+  var newArr = []
+  if (arr[0] > arr[1]) {
+    newArr.push(arr[1])
+    newArr.push(arr[0])
+  } else {
+    newArr = arr
+  }
   return newArr
   var smallestMultiple = 2
   var number = 1
-  if (smallestMultiple % 2 === 0  && number < newArr[1]) {
+  if (smallestMultiple % 2 === 0 && number < newArr[1]) {
     smallestMultiple++
     number++
   }
   console.log(smallestMultiple)
 }
 
-
 console.log(smallestCommons([5, 1]))
 console.log(smallestCommons([13, 1]))
 console.log(smallestCommons([1, 12]))
+
+// List all prime numbers 0 to 100
+
+for (var counter = 0; counter <= 100; counter++) {
+  var notPrime = false
+  for (var i = 2; i <= counter; i++) {
+    if (counter % i === 0 && i !== counter) {
+      notPrime = true
+    }
+  }
+  if (notPrime === false) {
+    console.log(counter)
+  }
+}

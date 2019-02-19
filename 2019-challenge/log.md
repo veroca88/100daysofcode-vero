@@ -17,4 +17,7 @@ DAY 4 02/15/2019.
  **Thoughts** While I read more about computer science fundamentals, algorithms and some terms more technics as Big O notation I feel motivated and sometimes I feel exausted but I'm keep doing more javascript exercises, I think I have many things to learn, I need to take advantage of the time.
  DAY 6 02/17/2019.
 **Today Progress** I did some exercises of mathematical functions, and in free code camp I'm in the Intermediate Algorithms: Smallest Common Multiple, I read a lot of how to do that exercises and finally I got it.
-**Thoughts** I think sometimes I spend to much time doing an exercises, I need to improve my time and also need to improve my code. 
+**Thoughts** I think sometimes I spend to much time doing an exercises, I need to improve my time and also need to improve my code.
+DAY 7 02/18/2019.
+**Today Progress** I re-checked the last code because I need to improve the time of my code, I started to read Euclidean Algorithms but I don't get it yet, so I changed to study some intervals and interval notation functions.
+**Thoughts** It's difficult when I've tried to understand an algorithm and I want to apply in coding, sometimes I need someone to explain me or I have to read and practice more in that challenge.
