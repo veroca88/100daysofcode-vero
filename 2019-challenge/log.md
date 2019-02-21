@@ -24,3 +24,6 @@ DAY 7 02/18/2019.
 DAY 8 02/19/19.
 **Today Progress** I searched for different ways to do the last exercise because my code was too long, the problem was there were advance way to get it but I want to understand the code to keep going with other one, so I tried several times, first, I created a function it takes the prime numbers, inside the principal function but then I couldn't find how to explain the next step so I tried again, finally I found someone who could explain me!!
 **Thoughts** I think the self-education it's challenging because sometimes you need a teacher a mentor or friend who could help you. Tutorials sometimes help but sometimes not.
+Day 9 02/20/19. 
+**Today Progress** Today I worked in different exercises of javascript, the first one was about iterate through and remove element from a function, lucky me yesterday I studied how function (mathematical) works, it helped me a lot. The next exercise was about to compute the sum of each individual index of two differents arrays... I'm still working on it.
+**Thoughts** Today was a good day, I did two exercises, one of them despite its difficult I got it. I'm working in the second one...

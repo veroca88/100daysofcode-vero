@@ -64,3 +64,34 @@ for (var counter = 0; counter <= 100; counter++) {
     console.log(counter)
   }
 }
+/* 15. Drop it. Given the array arr, iterate through and remove each element starting from the first element (the 0 index) until the function func returns true when the iterated element is passed through it. Then return the rest of the array once the condition is satisfied, otherwise, arr should be returned as an empty array. */
+function dropElements (arr, func) {
+  var times = arr.length
+  for (var i = 0; i < times; i++) {
+    if (func(arr[0])) {
+      break
+    } else {
+      arr.shift()
+    }
+  }
+  return arr
+}
+
+dropElements([1, 2, 3], function (n) { return n < 3 })
+
+/* 19. There are two arrays with individual values, write a JavaScript program to compute the sum of each individual index value from the given arrays.
+Sample array :
+array1 = [1,0,2,3,4];
+array2 = [3,5,6,7,8,13];
+Expected Output :
+[4, 5, 8, 10, 12, 13] */
+function indexSum (array1, array2) {
+  let newSumIndex = 0
+  let value = 0
+  for (var i = 0; i <= array1.length; i++) {
+    return array1[i]
+    }
+  }
+  return newSumIndex
+}
+
