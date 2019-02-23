@@ -105,6 +105,8 @@ console.log(indexSum(array1, array2))
 [4, 5, 8, 10, 12, 13] */
 
 /* Practice some recursion exercise */ 
+
+//without recursive function
 let mathFactorialNumber = function (num) {
   let result = 1
   let count
@@ -114,6 +116,20 @@ let mathFactorialNumber = function (num) {
   return result
 }
 console.log(mathFactorialNumber(10))
+
+//with recursive function
+
+var factorialNum = function (numb) {
+  if (numb <= 0) {
+    return numb = 1
+  } else {
+    return numb * factorialNum(numb - 1)
+  }
+}
+
+console.log(factorialNum(10))
+
+
 
 Flatten a nested array. You must account for varying levels of nesting. */
 function steamrollArray (arr) {
