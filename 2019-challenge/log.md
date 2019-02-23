@@ -30,3 +30,6 @@
 # Day 10 02/21/2019!!
 **Today Progress** Today I finished my last code, I loved it because I'm used while, for and push, I understood why sometimes when I used push didn't work, was a great day.  I did FreeCode Camp exercises,   I'm in the last of javascript.
 **Thoughts** Today was a great day, I learn a little bit, some exercise don't need to be so difficult to test you and this one was a great practice.
+# Day 11 02/22/2019!!
+**Today Progress** I read about recursion in javascript, the concept, uses and saw some examples. I did some exercises about it. The first one was about mathematical factorial number, I started from scratch and then step by step I was creating the code. The second exercise was one of the FreeCodeCamp named "Seamroller" I tried several times but I couldn't reach the solucion so I search one line tips, finally I found and excellent explanation that give me the complete image.
+**Thoughts** Despite I did two exercises of recursion in javascript I need to practice more and more, I'm going to follow the advice of start from little challenge and understand completly and then start with another a little bit more challenging.

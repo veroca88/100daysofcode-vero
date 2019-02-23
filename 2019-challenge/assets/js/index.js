@@ -103,3 +103,33 @@ let array2 = [3, 5, 6, 7, 8, 13]
 console.log(indexSum(array1, array2))
 /* Expected Output :
 [4, 5, 8, 10, 12, 13] */
+
+/* Practice some recursion exercise */ 
+let mathFactorialNumber = function (num) {
+  let result = 1
+  let count
+  for (count = num; count > 1; count--) {
+    result *= count
+  }
+  return result
+}
+console.log(mathFactorialNumber(10))
+
+Flatten a nested array. You must account for varying levels of nesting. */
+function steamrollArray (arr) {
+  let newArr = []
+
+  flatter(arr)
+  function flatter (arr) {
+    arr.forEach(function (item) {
+      if (!Array.isArray(item)) {
+        newArr.push(item)
+      }
+      else {
+        flatter(item)
+      }
+    })
+  }
+  return newArr
+}
+console.log(steamrollArray([1, [2], [3, [[4]]]]))
