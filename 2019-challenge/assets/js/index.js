@@ -104,9 +104,9 @@ console.log(indexSum(array1, array2))
 /* Expected Output :
 [4, 5, 8, 10, 12, 13] */
 
-/* Practice some recursion exercise */ 
+/* Practice some recursion exercise */
 
-//without recursive function
+// without recursive function
 let mathFactorialNumber = function (num) {
   let result = 1
   let count
@@ -117,7 +117,7 @@ let mathFactorialNumber = function (num) {
 }
 console.log(mathFactorialNumber(10))
 
-//with recursive function
+// with recursive function
 
 var factorialNum = function (numb) {
   if (numb <= 0) {
@@ -129,9 +129,7 @@ var factorialNum = function (numb) {
 
 console.log(factorialNum(10))
 
-
-
-Flatten a nested array. You must account for varying levels of nesting. */
+/* Flatten a nested array. You must account for varying levels of nesting. */
 function steamrollArray (arr) {
   let newArr = []
 
@@ -140,8 +138,7 @@ function steamrollArray (arr) {
     arr.forEach(function (item) {
       if (!Array.isArray(item)) {
         newArr.push(item)
-      }
-      else {
+      } else {
         flatter(item)
       }
     })
@@ -149,3 +146,18 @@ function steamrollArray (arr) {
   return newArr
 }
 console.log(steamrollArray([1, [2], [3, [[4]]]]))
+
+/* Write a JavaScript program to find the greatest common divisor (gcd) of two positive numbers. */
+
+var greatestCommonDivisor = function (numberA, numberB) {
+  var gcm = []
+
+  for (var i = 0; i < Math.max(numberA, numberB); i++) {
+    if (numberA % i === 0 && numberB % i === 0) {
+      gcm.push(i)
+    }
+    return gcm
+  }
+}
+
+console.log(greatestCommonDivisor(56, 42))
