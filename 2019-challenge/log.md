@@ -35,4 +35,10 @@
 **Thoughts** Despite I did two exercises of recursion in javascript I need to practice more and more, I'm going to follow the advice of start from little challenge and understand completly and then start with another a little bit more challenging.
 # DAY 12 02/23/2019!!
 **Today Progress** I read about the importance of tail call optimization when we are using recursive functions and if you have fear to lost in an infinity loop there are a way to protect you with a trampoline functions, of this specific theme there are many opinions of both sides, use this type of functions slows your own function and it's no productive. I re-write my last code, I apply recursive function.
-**Thoughts** Since the first day you started to learn to code, everybody told you that you must be careful with the infinity loops and then I knew recursive functions and understand that some risks are necessary
+**Thoughts** Since the first day you started to learn to code, everybody told you that you must be careful with the infinity loops and then I knew recursive functions and understand that some risks are necessary.
+# DAY 13 02/24/2019!!
+**Today Progress** I practiced how to make a gradient background, I applied it to my web page, also I did an exercise in javascript, it took me time, I did some research to solve it. 
+**Thoughts** Read about how to do some exercises help me to see other points of view and show me new paths.
+# DAY 14 02/25/2019!!
+**Today Progress** Today I did two exercises of javascript, the first one taught me new things, I knew some of them but I didn't know how to apply so that exercise helps me a lot. I firm up my knowledge about flatten an array with the second exercise.
+**Thoughts** I think while I did more exercises and repeat each of them I firm up my knowledge, I love it when I can do an exercise without problem
