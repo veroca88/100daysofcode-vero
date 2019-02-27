@@ -76,6 +76,10 @@
         <p>Today Progress: Today I did two exercises of javascript, it was challenging however I complete both of them. I know more about work with objects and arras, flatten array and use forEach metod. Also I practice different selectors in css using a program named CSS diner.
         Thoughts: More exercises of javascript it's the best way to achieve my goals, I have too mucho to earn but each day I find new thing and different way to do some code.
       </p>
+      <h2>DAY 16 02/27/2019!!</h2>
+      <p>Today Progress: Today I did a different type of exercise, this one is more focus to the real world, I did to an information input masked it. I used regular expression, also I tried to join to my HTML but I didn't have success. Also I did freecodecamp exercise it was about Return an English translated sentence of the passed binary string.
+      Thoughts: I want to pass this chapter and start in the bootstrap I'm exited about how I can join HTML with javascript.
+      </p>
     </article>
     <aside class="aboutme" id="Aboutme">
       <b>About Me: </b>I've studied CSS, HTML and Javascript since August of 2018, This challenge will prod me to achieve my goals and improve my knowledge in programming.
@@ -104,6 +108,16 @@
         <button id="zero"> 0 </button>
         <button id="point" data-action="decimal" > . </button>
         <button id="allclear" data-action="clear" > AC </button>
+      </div>
+      <h2 for="security-mask" data-action="" >Credit Card Mask</h2>
+      <div>
+        <p>Write something in the placeholder and see what's happening</p>
+        <input id="security-mask" type="text" name="secretmode" placeholder="Write your secret here" class="masked">
+        <script>
+          let maskify = function (input) {
+            let securityMask = input.replace(/\w(?=\w{4})/gi, "#");
+            return securityMask}
+        </script>
       </div>      
     </aside>
     <footer class="footer" id="Contact">

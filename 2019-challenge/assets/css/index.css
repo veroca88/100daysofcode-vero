@@ -190,6 +190,10 @@ a {
   grid-area: footer;
 }
 
+.masked {
+  text-transform: unset;
+}
+
 
 @media (min-width: 500px) {
   .wrapper {

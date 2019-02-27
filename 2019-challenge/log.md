@@ -45,3 +45,6 @@
 # DAY 15 02/26/2019!!
 **Today Progress** Today I did two exercises of javascript, it was challenging however I complete both of them. I know more about work with objects and arras, flatten array and use forEach metod. Also I practice different selectors in css using a program named CSS diner.
 **Thoughts** More exercises of javascript it's the best way to achieve my goals, I have too much to earn but each day I find new thing and different way to do some code.
+# DAY 16 02/27/2019!!
+**Today Progress** Today I did a different type of exercise, this one is more focus to the real world, I did to an information input masked it. I used regular expression, also I tried to join to my HTML but I didn't have success. Also I did freecodecamp exercise it was about Return an English translated sentence of the passed binary string.
+**Thoughts** I want to pass this chapter and start in the bootstrap I'm exited about how I can join HTML with javascript.
