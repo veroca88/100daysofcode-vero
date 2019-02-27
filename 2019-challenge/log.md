@@ -44,4 +44,4 @@
 **Thoughts** I think while I did more exercises and repeat each of them I firm up my knowledge, I love it when I can do an exercise without problem.
 # DAY 15 02/26/2019!!
 **Today Progress** Today I did two exercises of javascript, it was challenging however I complete both of them. I know more about work with objects and arras, flatten array and use forEach metod. Also I practice different selectors in css using a program named CSS diner.
-**Thoughts** More exercises of javascript it's the best way to achieve my goals, I have too mucho to earn but each day I find new thing and different way to do some code.
+**Thoughts** More exercises of javascript it's the best way to achieve my goals, I have too much to earn but each day I find new thing and different way to do some code.
