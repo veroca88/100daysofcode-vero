@@ -41,4 +41,7 @@
 **Thoughts** Read about how to do some exercises help me to see other points of view and show me new paths.
 # DAY 14 02/25/2019!!
 **Today Progress** Today I did two exercises of javascript, the first one taught me new things, I knew some of them but I didn't know how to apply so that exercise helps me a lot. I firm up my knowledge about flatten an array with the second exercise.
-**Thoughts** I think while I did more exercises and repeat each of them I firm up my knowledge, I love it when I can do an exercise without problem
+**Thoughts** I think while I did more exercises and repeat each of them I firm up my knowledge, I love it when I can do an exercise without problem.
+# DAY 15 02/26/2019!!
+**Today Progress** Today I did two exercises of javascript, it was challenging however I complete both of them. I know more about work with objects and arras, flatten array and use forEach metod. Also I practice different selectors in css using a program named CSS diner.
+**Thoughts** More exercises of javascript it's the best way to achieve my goals, I have too mucho to earn but each day I find new thing and different way to do some code.
