@@ -48,3 +48,6 @@
 # DAY 16 02/27/2019!!
 **Today Progress** Today I did a different type of exercise, this one is more focus to the real world, I did to an information input masked it. I used regular expression, also I tried to join to my HTML but I didn't have success. Also I did freecodecamp exercise it was about Return an English translated sentence of the passed binary string.
 **Thoughts** I want to pass this chapter and start in the bootstrap I'm exited about how I can join HTML with javascript.
+# DAY 17 02/28/2019!!
+**Today Progress** Today I only did one exercise on freecodecamp and review the last exercise, Today I don't have much time.
+**Thoughts** today for me wasn't a great progress, I think for code I need more time, tomorrow I'm goinog to spend the doble of the time.
