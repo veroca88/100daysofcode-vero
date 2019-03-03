@@ -206,7 +206,7 @@ function unionArr (arr1, arr2) {
 console.log(unionArr([1, 2, 3], [100, 2, 1, 10]))
 // [1, 2, 3, 10, 100]
 
-Write a JavaScript function to find the difference of two arrays.
+/* Write a JavaScript function to find the difference of two arrays.
 Test Data :
 console.log(difference([1, 2, 3], [100, 2, 1, 10]));
 ["3", "10", "100"]
@@ -289,3 +289,29 @@ function truthCheck(collection, pre) {
 
 truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
 
+/* Given an integral number, determine if it's a square number: */
+
+var isSquare = function(n){
+let result = Math.sqrt(n)
+if (Number.isInteger(result)) {
+  return true
+} else {
+  return false
+}
+}
+
+/* The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed. To be a senior, a member must be at least 55 years old and have a handicap greater than 7. In this croquet club, handicaps range from -2 to +26; the better the player the lower the handicap.
+Input
+Input will consist of a list of lists containing two items each. Each list contains information for a single potential member. Information consists of an integer for the person's age and an integer for the person's handicap.
+Note for F#: The input will be of (int list list) which is a List> */
+function openOrSenior(data){
+  var result = []
+for (var i = 0; i < data.length; i++) {
+  if (data[i][0] >= 55 && data[i][1] > 7) {
+    result.push('Senior')
+  } else {
+    result.push('Open')
+  }
+}
+  return result
+}
