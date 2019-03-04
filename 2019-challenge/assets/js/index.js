@@ -403,8 +403,8 @@ function orbitalPeriod(arr) {
   var formulaA = 2 * Math.PI
   var getOrbPeriod = function (obj) {
     var formulaC = Math.pow(earthRadius + obj.avgAlt, 3)
-    var formulaB = Math.sqrt(formulaC/GM)
-    var orbPeriod = formulaA * formulaB
+    var formulaB = Math.sqrt(formulaC / GM)
+    var orbPeriod = Math.round(formulaA * formulaB)
     delete obj.avgAlt
     obj.orbitalPeriod = orbPeriod
     return obj
