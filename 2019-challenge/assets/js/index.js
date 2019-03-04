@@ -352,3 +352,67 @@ function addTogether(elem1, elem2) {
 }
 
 addTogether(2,3);
+
+/* Intermediate Algorithm Scripting: Make a Person
+Fill in the object constructor with the following methods below: getFirstName() getLastName() getFullName() setFirstName(first) setLastName(last) setFullName(firstAndLast)
+Run the tests to see the expected output for each method. The methods that take an argument must accept only one argument and it has to be a string.
+These methods must be the only available means of interacting with the object. */
+
+var Person = function (firstAndLast) {
+  // Complete the method below and implement the others similarly
+  
+  var fullName = firstAndLast
+  var namesSeparates = fullName.split(' ')
+
+  this.getFirstName = function () {
+    return namesSeparates[0];
+  };
+
+  this.getLastName = function () {
+    return namesSeparates[1];
+  };
+
+  this.getFullName = function () {
+    return fullName;
+  };
+
+  this.setFirstName = function (first) {
+    namesSeparates[0] = first;
+    fullName = namesSeparates.join(' ');
+  };
+
+  this.setLastName = function (last) {
+    namesSeparates[1] = last;
+    fullName = namesSeparates.join(' ');
+  };
+
+  this.setFullName = function (firstAndLast) {
+    fullName = firstAndLast;
+    namesSeparates = fullName.split(' ');
+  };
+};
+
+var bob = new Person('Bob Ross');
+bob.getFullName()
+
+/* Return a new array that transforms the elements' average altitude into their orbital periods (in seconds). The array will contain objects in the format {name: 'name', avgAlt: avgAlt}. You can read about orbital periods on Wikipedia. The values should be rounded to the nearest whole number. The body being orbited is Earth. The radius of the earth is 6367.4447 kilometers, and the GM value of earth is 398600.4418 km3s-2. */
+function orbitalPeriod(arr) {
+  var GM = 398600.4418;
+  var earthRadius = 6367.4447;
+  var newArr = []
+  var formulaA = 2 * Math.PI
+  var getOrbPeriod = function (obj) {
+    var formulaC = Math.pow(earthRadius + obj.avgAlt, 3)
+    var formulaB = Math.sqrt(formulaC/GM)
+    var orbPeriod = formulaA * formulaB
+    delete obj.avgAlt
+    obj.orbitalPeriod = orbPeriod
+    return obj
+  }
+  for (var elem in arr) {
+    newArr.push(getOrbPeriod(arr[elem]))
+  }
+  return newArr
+}
+
+orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
