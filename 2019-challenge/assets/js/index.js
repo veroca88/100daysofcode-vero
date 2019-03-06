@@ -416,3 +416,16 @@ function orbitalPeriod(arr) {
 }
 
 orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
+
+/* Palindrome Checker */
+
+function palindrome(str) {
+  var noSensitive = str.toLowerCase().replace(/\W|\_|\*/gi, '')
+  var reverseNoSensitive = noSensitive.split('').reverse().join('')
+  if (reverseNoSensitive === noSensitive) {
+    return true
+  } else {
+    return false;
+  }
+}
+palindrome("eye");
