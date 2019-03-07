@@ -51,3 +51,18 @@
 # DAY 17 02/28/2019!!
 **Today Progress** Today I only did one exercise on freecodecamp and review the last exercise, Today I don't have much time.
 **Thoughts** today for me wasn't a great progress, I think for code I need more time, tomorrow I'm goinog to spend the doble of the time.
+# DAY 18 03/02/2019
+**Today Progress** Today I worked in exercises of javascript, the first one was about create a function to find the difference of two arrays, this exercise was new in the way to solve so it helped me a lot. I'm still working on the second one, function to return the numbers of truthy.
+**Thoughts** Today was a good day, I did two exercises, one of them despite its difficult it teach me a lot. I'm working in the second one...
+# DAY 19 03/03/2019
+**Today Progress** I re-checked the last code because I need understand how that methonds works, I did an exercise of javascript and an exercise of FreeCodeCamp.        
+**Thoughts** I've tried to understand that methods to know how to apply when I want to apply in coding, sometimes I need someone to explain me or I have to read and practice more in that challenge.
+# DAY 20 03/04/2019
+**Today Progress** Today I did exercise of javascript, it taught me new things about objects, iterate and search inside them, I knew some of it but I didn't know how to get data, this exercise helps me a lot.
+**Thoughts** I think while I repeat exercises and did a lot of them without searching on line I will lear more, I love when I can do an exercise with confidence.
+# DAY 21 03/05/2019
+**Today Progress** I found this application called SoloLearn I did a lot practice in it, some basic concepts and how to join HTML with Javascript.
+**Thoughts** I'm feel motivated when I respond a question about js or html with confidence, it let me know that I must to keep going.
+# DAY 22 03/06/2019
+**Today Progress** I converted ordinal numbers in roman numbers and started to do the next exercise about Caesars Cipher, I tried until nigth but I couldn't solve it.
+**Thoughts** I need to understand completly the most common function/methods for that I'm going to do a cheat sheet.
