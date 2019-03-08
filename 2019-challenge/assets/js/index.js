@@ -446,3 +446,11 @@ function convertToRoman (num) {
 }
 
 convertToRoman(36)
+
+//Practice Map() Method
+
+const primeNumbers = [1, 2, 3, 5, 7, 11]
+let multiplicationNum = primeNumbers.map(number => {
+  return number * 5
+})
+console.log(multiplicationNum)

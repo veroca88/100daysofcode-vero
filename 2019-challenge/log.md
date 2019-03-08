@@ -66,3 +66,9 @@
 # DAY 22 03/06/2019
 **Today Progress** I converted ordinal numbers in roman numbers and started to do the next exercise about Caesars Cipher, I tried until nigth but I couldn't solve it.
 **Thoughts** I need to understand completly the most common function/methods for that I'm going to do a cheat sheet.
+# DAY 23 03/07/2019
+**Today Progress** I read about map reduce and filter methods, I tried the last project about Caesar Cipher.
+**Thoughts** This exercise I tried several times, it works until a point that I don't know what to do, I need to know what is the error.
+# DAY 24 03/08/2019
+**Today Progress** I started my cheat sheet about some methods I believe, this methods are the most importants, today I read about .map() and did some exercises, A curious fact is (for me) Always .map() methhod will interact with all the elements of the array you can't chose or filter any element inside of an array.
+**Thoughts** I think Ihave to understand completely the majority of methods, It could help me a lot to resolve the problems, to see the easy path to reach the solution.  
