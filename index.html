@@ -23,7 +23,7 @@
     <article class="content">
       <h1>CHEAT SHEET</h1>
       <p> .map() method : creates a new array from calling a specific function on each item in the principal array.
-        THis method doesn't filter or extract if the condition is true, this method interact or change with all the elements of an array.
+        This method doesn't filter or extract if the condition is true, this method interact or change with all the elements of an array.
         - Calling a function on each item in an Array ?
           if we have an initial array const oddNumber = [1, 3, 5, 7, 9] we can use a callback function (callback oddNumber) inside map method, we can modify each individual item in an array and create a new array off it. (Always .map will work with all elements of an array)
       </p>
@@ -40,6 +40,25 @@
           const dobleNumber = oddNumber.map(makeDobleNUmber);
           console.log(dobleNumber)
           </script>
+
+      <p> .call() method we can use with an string to change to an array, we have to remember that if we use call method with map method, map apply in all (letters of the word), everything in javascript is an object, .call() allows us to utilize the context of one object on another, also can be passed arguments of the context to be used, and "parameters for the arguments of the original function"
+      </p>
+      //Using map() with call()
+      const fruit = ['apple', 2]
+      const map = Array.prototype.map
+      const fruitA = map.call(fruit, letter => {
+            return `${letter}a`
+          })
+          console.log(fruitA)
+      //output ["applea", "2a"]
+      
+      //Using only map()
+      const fruit = ['apple', 2]
+      const fruitA = fruit.map(letter => {
+            return `${letter}a`
+          })
+          console.log(fruitA)
+      //output ["applea", "2a"]
           
     </article>
     <aside class="aboutme" id="Aboutme">

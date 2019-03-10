@@ -454,3 +454,19 @@ let multiplicationNum = primeNumbers.map(number => {
   return number * 5
 })
 console.log(multiplicationNum)
+
+//Using map() with call()
+const fruit = ['apple', 2]
+const map = Array.prototype.map
+const fruitA = map.call(fruit, letter => {
+            return `${letter}a`
+          })
+          console.log(fruitA)
+//output ["applea", "2a"]
+//Using only map()
+const fruit = ['apple', 2]
+const fruitA = fruit.map(letter => {
+            return `${letter}a`
+          })
+          console.log(fruitA)
+//output ["applea", "2a"]

@@ -71,4 +71,7 @@
 **Thoughts** This exercise I tried several times, it works until a point that I don't know what to do, I need to know what is the error.
 # DAY 24 03/08/2019
 **Today Progress** I started my cheat sheet about some methods I believe, this methods are the most importants, today I read about .map() and did some exercises, A curious fact is (for me) Always .map() methhod will interact with all the elements of the array you can't chose or filter any element inside of an array.
-**Thoughts** I think Ihave to understand completely the majority of methods, It could help me a lot to resolve the problems, to see the easy path to reach the solution.  
+**Thoughts** I think Ihave to understand completely the majority of methods, It could help me a lot to resolve the problems, to see the easy path to reach the solution. 
+#DAY 25 03/10/2019
+**Today Progress** I did some exercise with map, I play with it to know how it function and the different outputs that I can get of it, also I did an exercise with map() and call() to iterate and change of string to an array.
+**Thoughts** Despite this exercises are super basic I need to do it because it is the way to understand their behavior, I need to commit more with the studying and keep going with the most important methods to finally pass to the next xhapter in freecodecamp 
