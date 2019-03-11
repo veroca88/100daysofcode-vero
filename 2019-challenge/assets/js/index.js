@@ -470,3 +470,49 @@ const fruitA = fruit.map(letter => {
           })
           console.log(fruitA)
 //output ["applea", "2a"]
+
+var prehero = ['Bat', 'Spider']
+var hero = prehero.map(hero => {
+  return `${hero}man`
+})
+console.log(hero)
+
+// Reformatting an array object
+
+//Example one
+const myFavoriteSongs = [
+      { artist: 'Felix Jaenh', song: 'Book of love', timesPlay: 4},
+      { artist: 'The temper trap', song: 'Sweet disposition', timesPlay: 3}
+      ]
+
+      const mostPopularSong = myFavoriteSongs.map(bestSong => {
+        const container = {};
+
+        container[bestSong.artist] = bestSong.song;
+        container.timesPlay = bestSong.timesPlay * 5;
+
+        return container;
+      }) 
+
+      console.log(mostPopularSong)
+// Example two
+
+const myFavoriteMeal = [
+  {meat: 'chicken', option: 'potatoes', drink: 'beer'},
+  {meat: 'ribbs', option: 'salad', drink: 'water'}
+]
+
+const myNewFavoriteFood = myFavoriteMeal.map(meal => {
+  
+const container = {}
+
+  container[meal.meat] = meal.option;
+  container.desert = 'chocolate cake';
+  
+  return container
+  
+})
+
+console.log(myNewFavoriteFood)
+
+
