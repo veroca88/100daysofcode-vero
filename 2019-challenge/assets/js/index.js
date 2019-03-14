@@ -515,4 +515,43 @@ const container = {}
 
 console.log(myNewFavoriteFood)
 
+//JavaScript Algorithms and Data Structures Projects: Caesars Cipher
+
+var hi = 'Hello World'
+var str = hi.split('')
+var test = str.map(str, function(letter) {
+  x = letter.charCodeAt(0);
+  if (letter < 65 || letter > 90) {
+  return String.fromCharCode(x)
+} else if (x < 78) {
+  return String.fromCharCode(x + 13)
+} return String.fromCharCode(x - 13)}).join('')
+
+console.log(test)
+
+// Exercises using forEach() method
+
+var newStudents = ['Veronica', 'Amalia', 'Jane', 'Eric', 'Carlos', 'Jonh']
+newStudents.forEach(function(item, index, array) {
+  if (item.length > 4) {
+    console.log(item);
+  } 
+})
+
+// Using the same array with for...in method
+
+for (let key in newStudents) {
+  if (newStudents[key].length > 4) {
+    console.log(newStudents[key])
+  }
+}
+
+// Using the same array with map() method
+
+newStudents.map(function(name) {
+if (name.length > 4) {
+  console.log(name)
+}
+})
+
 

@@ -82,4 +82,10 @@ let user = {
   'enjoy most': 'play piano',
 };
 but if we use multiword we have to remember when we want to access it it doesn't wprk woth dot notation *X user.enjoy most = true X* we can use *user['enjoy most'] = true* 
-**Thoughts** today was a great day, I learned new concepts, understood old ones, and I did some exercises I believe it helps me a lot 
+**Thoughts** today was a great day, I learned new concepts, understood old ones, and I did some exercises I believe it helps me a lot
+# DAY 27 03/12/2019
+**Today Progress** I finally done the project about Caesar Cipher, I learned about map() method, charCodeAt() method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index. and String.fromCharCode() method returns a string created from the specified sequence of UTF-16 code units.
+**Thoughts** I enjoyed doing this exercise because I learn more about map() and learned new things like charCodeAt() and String.fronCharCode(). I don't know if this methods are currently used.
+# DAY 28 03/14/2019
+**Today Progress** I read about the difference and how it works the map(), forEach() and for...in, I did some exercise to show that I can solve it with either of the three methods. I need to read more abour forEach() but for today I done
+**Thoights** Seeing the alternatives to solve a problems with those methods and the time that it takes its interesting due to there are flexibility and diferent ways to get what we want.
