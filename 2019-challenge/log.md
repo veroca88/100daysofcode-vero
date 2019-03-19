@@ -89,3 +89,9 @@ but if we use multiword we have to remember when we want to access it it doesn't
 # DAY 28 03/14/2019
 **Today Progress** I read about the difference and how it works the map(), forEach() and for...in, I did some exercise to show that I can solve it with either of the three methods. I need to read more abour forEach() but for today I done
 **Thoights** Seeing the alternatives to solve a problems with those methods and the time that it takes its interesting due to there are flexibility and diferent ways to get what we want.
+# Day 29 03/18/2019
+**Today Progress** I study about forEach(), for...in, split(), I did some exercises since basics to medium exercises to improve my skills. I forgot to did a commit in github.
+**Thoughts** Maybe I don't have enough time to practice javascript but the time that I'm allocating to study helps me a lot to know and deepen in the different methods
+# Day 30 30/19/2019
+**Today Progress** I found an interesting exercise of javascript and I'm working on it. (Codewars)
+**Thoughts** I spent to much time doing an exercise but I think that is the olny way to learn.

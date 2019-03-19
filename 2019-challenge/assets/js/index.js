@@ -554,4 +554,42 @@ if (name.length > 4) {
 }
 })
 
+// Time for you to practice some arrays and foreach loops! 
+// Create an array of your friends' names and print to the browser that each of them is your friend
 
+var mesAmies = ['Erick', 'Naty', 'Dana', 'Karla', 'Gustavo'];
+
+mesAmies.forEach(name => console.log(name + ' is my friend'))
+
+// Create an array of the names of your favorite writers. Then use a foreach loop to print them to the browser with their letters reversed.
+var favoriteWritters = ['Anthony Robbins', 'Isabel Allende', 'Gabriel Garcia Marquez'];
+
+favoriteWritters.forEach(function(name) { 
+  let eachWritter = name.split("").reverse().join('');
+  console.log(eachWritter)})
+
+  /* The new "Avengers" movie has just been released! There are a lot of people at the cinema box office standing in a huge line. Each of them has a single 100, 50 or 25 dollars bill. An "Avengers" ticket costs 25 dollars.
+
+Vasya is currently working as a clerk. He wants to sell a ticket to every single person in this line.
+
+Can Vasya sell a ticket to each person and give the change if he initially has no money and sells the tickets strictly in the order people follow in the line?
+
+Return YES, if Vasya can sell a ticket to each person and give the change with the bills he has at hand at that moment. Otherwise return NO. */
+function tickets(peopleInLine){
+var bank = 0;
+peopleInLine.forEach(function(money) {
+ var change = money - 25
+ if (change === 0) {
+   bank = bank + change;
+   return 'Yes'
+ } else if (change === 25 && bank >= 25) {
+   bank -= change;
+   return 'Yes'
+ } else if (change === 75 && bank >= 75) {
+   bank -= change;
+   return 'Yes'
+ } else {
+   return 'No'
+ }
+})
+}
