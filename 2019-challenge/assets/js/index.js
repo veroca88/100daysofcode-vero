@@ -575,21 +575,25 @@ Vasya is currently working as a clerk. He wants to sell a ticket to every single
 Can Vasya sell a ticket to each person and give the change if he initially has no money and sells the tickets strictly in the order people follow in the line?
 
 Return YES, if Vasya can sell a ticket to each person and give the change with the bills he has at hand at that moment. Otherwise return NO. */
-function tickets(peopleInLine){
-var bank = 0;
-peopleInLine.forEach(function(money) {
- var change = money - 25
- if (change === 0) {
-   bank = bank + change;
-   return 'Yes'
- } else if (change === 25 && bank >= 25) {
-   bank -= change;
-   return 'Yes'
- } else if (change === 75 && bank >= 75) {
-   bank -= change;
-   return 'Yes'
- } else {
-   return 'No'
- }
-})
+function tickets(peopleInLine) {
+ var positive = 0;
+ var negative = 0;
+peopleInLine.map(function(element) {
+  var bank = 0;
+  var change = element - 25;
+ 
+  if (change >= 0 && bank >= 0) {    
+    bank += 25
+  } if (change < bank) {
+    bank = bank - change;
+    positive = positive + 1
+  } else if (change > bank) {
+    negative = negative + 1
+  } 
+});
+ if (negative >= positive) {
+    return 'NO'
+  } else {
+     return 'YES'
+  }
 }
